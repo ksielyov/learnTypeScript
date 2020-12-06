@@ -11,4 +11,13 @@ const anyOne: null = null;
 const arrNum: number[] = [5, 4, 7, 2];
 const arrNum2: Array<number> = [5, 2];
 
+const postsTitles: string[] = ['234234', 'sdffsdsfd'];
+
+const user: [string, number] = ['Viktor', 32];
+
+let someone: any = 'asdaddasasd';
+
+someone = 2;
+
+
 console.log(anyFloat)
