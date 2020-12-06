@@ -1,17 +1,37 @@
-// const getUser = (user: number) : void => {
-//     console.log(user)
-// }
+// // // const getUser = (user: number) : void => {
+// // //     console.log(user)
+// // // }
+// // //
+// // // getUser(2);
+// //
+// // let throwErr = (err: string): never => {
+// //     throw new Error(err)
+// // }
+// //
+// // // throwErr('Any error')
+// //
+// // type numArr = number[];
+// //
+// // let userIds: numArr = [2, 4, 5];
+// //
+// // console.log(userIds)
 //
-// getUser(2);
+// type id = string | number;
+//
+// let userId: id = 2;
+//
+// console.log(userId)
+//
+// userId = 'test';
+//
+// console.log(userId)
 
-let throwErr = (err: string): never => {
-    throw new Error(err)
-}
+type types = null | undefined;
 
-// throwErr('Any error')
+let anyone: types = null
 
-type numArr = number[];
+console.log(anyone)
 
-let userIds: numArr = [2, 4, 5];
+anyone = undefined
 
-console.log(userIds)
+console.log(anyone)
