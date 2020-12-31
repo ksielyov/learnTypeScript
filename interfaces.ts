@@ -64,8 +64,10 @@
 
 // type StyleSheetKeyType = string | number;
 
+type styleType = string | number
+
 interface styles {
-    [key: string] : string
+    [key: string] : styleType
 }
 
 const profileStyle: styles = {
